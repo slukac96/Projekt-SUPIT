@@ -1,0 +1,84 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nastavni plan</title>
+    <meta name="author" content="Sara">
+    <link rel="stylesheet" href="/Css/Stil.css">
+    <link rel="stylesheet" href="/Css/Kontakt.css">
+    <link rel="stylesheet" href="/Css/NastavniPlan.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/c498e34432.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" sizes="76x76" href="/minimini/appl.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/minimini/32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/minimini/16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <div class="navg-bar">
+        <div class="lef">            
+            <a href="Pocetna.html"><img src="/img/Algebra-logo.png" width="50 px" id="Logo"></a>
+            <a href="Pocetna.html"><i class="fas fa-home"></i> Početna</a>
+            <a href="ONama.html"><i class="fas fa-comments"></i> O nama</a>
+            <a href="Novosti.html"><i class="fas fa-info-circle"></i> Novosti</a>
+            <a href="NastavniPlan.html"><i class="fas fa-thumbtack"></i> Nastavni plan</a>
+            
+        </div>
+
+    </div>
+    <div class="idiot"><i class="fas fa-bars"></i></div>
+
+    <h1 class="headline">Nastavni plan</h1>
+    
+    <div class="row">
+        <div class="column left">
+            <form>
+                <div class="input-row">               
+                    <Label for = "nazivKolegija"><h2>Naziv kolegija:</h2></Label>
+                    <input type="text" id="search" class="form-control form-control-lg"
+                    autocomplete="off" placeholder="Započnite unos naziva kolegija...">
+                    <button class="add-row">Submit</button>
+                </div>
+                <div id="match-list" class="match-list-style"></div>
+            </form>
+        </div>
+        <div class="column right">
+        <table id = "taPredmet">
+            <thead>
+                <tr>
+                    <th width = "10%">Kolegij</th>
+                    <th width = "10%">ECTS</th>
+                    <th width = "10%">Sati</th>
+                    <th width = "5%">P</th>
+                    <th width = "5%">V</th>
+                    <th width = "10%">Tip</th>
+                    <th width = "10%"></th>
+                </tr>
+            </thead>
+            <tbody id="tbPredmet">
+               
+                <tr>
+                    <td>Testni kolegij1</td><td>5</td><td>60</td><td>2</td><td>2</td><td>Obavezni</td>
+                    <td><button class="delete-row" >Obriši</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="image-footer"><img src="/img/zaiskri-bg.jpg" width="100%" height="400px" id="footer-image"></div>
+    <h1>Budi izvrstan u onom što voliš</h1>
+    <h2>Zaiskri</h2>
+</div>
+
+<script src="/js/idiot.js"></script>
+<script src="/js/NastavniPlan.js"></script>
+
+
+<script src="/"></script>
+
+</body>

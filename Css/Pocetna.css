@@ -1,0 +1,33 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .videoContainer {
+    font-family: 'Garamond ', serif;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+  
+   .videoContainer p {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px black;
+    color: white;
+    }
+
+    @keyframes blink-animation {
+      to {
+        visibility: hidden;
+      }
+    }
+  
+  #demo2 {
+      color: rgb(255, 123, 0);}
+
+  
+

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navg-bar {
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:  90px;
+}
+
+/* Lijevo štemanje */
+.navg-bar a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.left-side {
+    top: 0;
+    left: 0;
+    align-items: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 70px;
+    z-index: 1000;
+}
+
+.navg-bar a:hover {
+    color: rgb(0, 255, 0);
+}
+
+@media all and (max-width: 768px){
+    .navg-bar{
+        display: none;
+    }
+    .idiot{
+        font-size: 80px;
+        position: fixed;
+        display: block;
+        right: 10%;
+    }
+    .navg-bar.DISPLAY{
+        display: flex;
+        background-color: transparent;
+    }
+    .left-side{
+        display: flex;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 40%; 
+        flex-direction: column;
+    }
+    .left-side a{
+        
+        color: tomato;
+        margin: 20%;
+    }
+}
